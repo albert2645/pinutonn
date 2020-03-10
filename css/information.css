@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lacquer&display=swap');
+
+
+/*
+font-family: 'Lacquer', sans-serif;
+font-family: 'Indie Flower', cursive;
+
+
+
+*/
+
+/* === Layout === */
+a {
+  text-decoration: none !important;
+}
+
+body {
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+
+  text-transform: uppercase;
+  font-family: 'Indie Flower', sans-serif;
+
+}
+
+nav .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+nav ul li {
+  margin-right: 50px;
+  font-size: 24px;
+
+}
+
+nav ul li a .last {
+  margin-right: 0!important;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+#bilgi {
+  background-color: rgba(252, 208, 161, 0.9);
+  height: auto;
+
+  box-shadow: 16px 16px 16px 5px rgba(0, 0, 0, 0.6);
+}
+
+#indent {
+  margin-left: 40px;
+}
+
+#bilgi .essay {
+  color: #223843;
+  font-family: 'Indie Flower', cursive;
+}
+
+#bilgi .essay p {
+  font-size: 24px;
+}
+
+#bilgi .essay h2 {
+  font-size: 48px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border: none;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
+
+.text-muted i {
+  margin: 0 10px!important;
+}
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #34495e;
+  padding: 128px 0px;
+}
+
+footer .wrapper .container h1 {
+  font-family: 'Lacquer', sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+footer .wrapper .container h4 {
+  float: right;
+  position: relative;
+  right: 120px;
+  font-family: 'Lacquer', sans-serif;
+}
+
+.postat {
+  box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.4);
+}
+
+textarea {
+  height: 100%;
+}
